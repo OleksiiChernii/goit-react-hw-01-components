@@ -1,0 +1,31 @@
+.statistics{
+    width: 300px;
+    height: auto;
+
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+    /* transform: translate(-50%, -50%); */
+}
+
+.stat-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.title{
+    text-transform: uppercase;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

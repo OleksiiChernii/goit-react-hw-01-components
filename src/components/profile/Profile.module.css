@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .profile{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+  
+    background-color: #fff;
+    text-align: center;
+  
+    width: 300px;
+    padding-top: 20px;
+    
+    color: darkgray;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+  
+    overflow: hidden;
+  }
+  .name{
+    font-weight: 700;
+    color: black;
+  }
+  .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .stats{
+    display: flex;
+  }
+  
+  .label{
+    color: darkgrey;
+  }
+  
+  .stats li{
+    width: calc(100% / 3);
+    color: black;
+    padding: 10px;
+    border: 1px solid darkgrey;
+  
+    background-color: lightgrey;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
